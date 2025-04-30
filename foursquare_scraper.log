@@ -1,0 +1,58 @@
+2025-04-29 09:18:39,577 - INFO - MainProcess - ====== WebDriver manager ======
+2025-04-29 09:18:42,873 - INFO - MainProcess - Get LATEST chromedriver version for google-chrome
+2025-04-29 09:18:42,951 - INFO - MainProcess - Get LATEST chromedriver version for google-chrome
+2025-04-29 09:18:43,039 - INFO - MainProcess - Driver [C:\Users\luisarias\.wdm\drivers\chromedriver\win64\136.0.7103.48\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-29 09:18:44,236 - INFO - MainProcess - ====== WebDriver manager ======
+2025-04-29 09:18:47,756 - INFO - MainProcess - Get LATEST chromedriver version for google-chrome
+2025-04-29 09:18:47,839 - INFO - MainProcess - Get LATEST chromedriver version for google-chrome
+2025-04-29 09:18:47,919 - INFO - MainProcess - Driver [C:\Users\luisarias\.wdm\drivers\chromedriver\win64\136.0.7103.48\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-29 09:18:49,101 - INFO - MainProcess - ====== WebDriver manager ======
+2025-04-29 09:18:52,768 - INFO - MainProcess - Get LATEST chromedriver version for google-chrome
+2025-04-29 09:18:52,837 - INFO - MainProcess - Get LATEST chromedriver version for google-chrome
+2025-04-29 09:18:52,904 - INFO - MainProcess - Driver [C:\Users\luisarias\.wdm\drivers\chromedriver\win64\136.0.7103.48\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-29 09:18:54,145 - INFO - MainProcess - ====== WebDriver manager ======
+2025-04-29 09:18:57,828 - INFO - MainProcess - Get LATEST chromedriver version for google-chrome
+2025-04-29 09:18:57,911 - INFO - MainProcess - Get LATEST chromedriver version for google-chrome
+2025-04-29 09:18:57,981 - INFO - MainProcess - Driver [C:\Users\luisarias\.wdm\drivers\chromedriver\win64\136.0.7103.48\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-29 09:19:07,113 - WARNING - MainProcess - No se encontraron sitios en https://es.foursquare.com/explore?mode=url&ne=10.634965%2C-75.06443&q=Turbaco&sw=10.177753%2C-75.641212
+2025-04-29 09:19:07,113 - INFO - MainProcess - Completado: https://es.foursquare.com/explore?mode=url&ne=10.634965%2C-75.06443&q=Turbaco&sw=10.177753%2C-75.641212
+2025-04-29 09:19:07,131 - WARNING - MainProcess - No se encontraron sitios en http://es.foursquare.com/explore?mode=url&ne=10.561735%2C-75.370502&q=Santa%20Cruz%20de%20Mompox&sw=10.333159%2C-75.658894
+2025-04-29 09:19:07,131 - INFO - MainProcess - Completado: http://es.foursquare.com/explore?mode=url&ne=10.561735%2C-75.370502&q=Santa%20Cruz%20de%20Mompox&sw=10.333159%2C-75.658894
+2025-04-29 09:19:07,351 - WARNING - MainProcess - No se encontraron sitios en https://es.foursquare.com/explore?mode=url&near=Santa%20Marta%2C%20Magdalena&nearGeoId=72057594041596541
+2025-04-29 09:19:07,352 - INFO - MainProcess - Completado: https://es.foursquare.com/explore?mode=url&near=Santa%20Marta%2C%20Magdalena&nearGeoId=72057594041596541
+2025-04-29 09:19:07,366 - WARNING - MainProcess - No se encontraron sitios en https://es.foursquare.com/explore?mode=url&near=Cartagena%20de%20Indias%2C%20Bol%C3%ADvar%2C%20Colombia&nearGeoId=72057594041615174
+2025-04-29 09:19:07,366 - INFO - MainProcess - Completado: https://es.foursquare.com/explore?mode=url&near=Cartagena%20de%20Indias%2C%20Bol%C3%ADvar%2C%20Colombia&nearGeoId=72057594041615174
+2025-04-29 09:19:07,367 - INFO - MainProcess - Scraping completado en 8.30s - 0/4 exitosos
+2025-04-29 09:29:14,152 - INFO - MainProcess - ====== WebDriver manager ======
+2025-04-29 09:29:17,011 - INFO - MainProcess - Get LATEST chromedriver version for google-chrome
+2025-04-29 09:29:17,100 - INFO - MainProcess - Get LATEST chromedriver version for google-chrome
+2025-04-29 09:29:17,190 - INFO - MainProcess - Driver [C:\Users\luisarias\.wdm\drivers\chromedriver\win64\136.0.7103.48\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-29 09:29:18,329 - INFO - MainProcess - ====== WebDriver manager ======
+2025-04-29 09:29:21,150 - INFO - MainProcess - Get LATEST chromedriver version for google-chrome
+2025-04-29 09:29:21,227 - INFO - MainProcess - Get LATEST chromedriver version for google-chrome
+2025-04-29 09:29:21,298 - INFO - MainProcess - Driver [C:\Users\luisarias\.wdm\drivers\chromedriver\win64\136.0.7103.48\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-29 09:29:22,397 - INFO - MainProcess - ====== WebDriver manager ======
+2025-04-29 09:29:25,235 - INFO - MainProcess - Get LATEST chromedriver version for google-chrome
+2025-04-29 09:29:25,312 - INFO - MainProcess - Get LATEST chromedriver version for google-chrome
+2025-04-29 09:29:25,388 - INFO - MainProcess - Driver [C:\Users\luisarias\.wdm\drivers\chromedriver\win64\136.0.7103.48\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-29 09:29:26,501 - INFO - MainProcess - ====== WebDriver manager ======
+2025-04-29 09:29:29,835 - INFO - MainProcess - Get LATEST chromedriver version for google-chrome
+2025-04-29 09:29:29,912 - INFO - MainProcess - Get LATEST chromedriver version for google-chrome
+2025-04-29 09:29:29,991 - INFO - MainProcess - Driver [C:\Users\luisarias\.wdm\drivers\chromedriver\win64\136.0.7103.48\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-29 09:29:38,407 - WARNING - MainProcess - No se encontraron sitios en https://es.foursquare.com/explore?mode=url&ne=10.634965%2C-75.06443&q=Turbaco&sw=10.177753%2C-75.641212
+2025-04-29 09:29:38,408 - INFO - MainProcess - Completado: https://es.foursquare.com/explore?mode=url&ne=10.634965%2C-75.06443&q=Turbaco&sw=10.177753%2C-75.641212
+2025-04-29 09:29:38,929 - WARNING - MainProcess - No se encontraron sitios en http://es.foursquare.com/explore?mode=url&ne=10.561735%2C-75.370502&q=Santa%20Cruz%20de%20Mompox&sw=10.333159%2C-75.658894
+2025-04-29 09:29:38,929 - INFO - MainProcess - Completado: http://es.foursquare.com/explore?mode=url&ne=10.561735%2C-75.370502&q=Santa%20Cruz%20de%20Mompox&sw=10.333159%2C-75.658894
+2025-04-29 09:29:39,189 - WARNING - MainProcess - No se encontraron sitios en https://es.foursquare.com/explore?mode=url&near=Cartagena%20de%20Indias%2C%20Bol%C3%ADvar%2C%20Colombia&nearGeoId=72057594041615174
+2025-04-29 09:29:39,189 - INFO - MainProcess - Completado: https://es.foursquare.com/explore?mode=url&near=Cartagena%20de%20Indias%2C%20Bol%C3%ADvar%2C%20Colombia&nearGeoId=72057594041615174
+2025-04-29 09:29:39,267 - WARNING - MainProcess - No se encontraron sitios en https://es.foursquare.com/explore?mode=url&near=Santa%20Marta%2C%20Magdalena&nearGeoId=72057594041596541
+2025-04-29 09:29:39,267 - INFO - MainProcess - Completado: https://es.foursquare.com/explore?mode=url&near=Santa%20Marta%2C%20Magdalena&nearGeoId=72057594041596541
+2025-04-29 09:29:39,269 - INFO - MainProcess - Scraping completado en 8.20s - 0/4 exitosos
+2025-04-29 09:37:41,406 - INFO - MainProcess - ====== WebDriver manager ======
+2025-04-29 09:37:44,224 - INFO - MainProcess - Get LATEST chromedriver version for google-chrome
+2025-04-29 09:37:44,309 - INFO - MainProcess - Get LATEST chromedriver version for google-chrome
+2025-04-29 09:37:44,390 - INFO - MainProcess - Driver [C:\Users\luisarias\.wdm\drivers\chromedriver\win64\136.0.7103.48\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-29 09:38:01,459 - INFO - MainProcess - ====== WebDriver manager ======
+2025-04-29 09:38:04,323 - INFO - MainProcess - Get LATEST chromedriver version for google-chrome
+2025-04-29 09:38:04,411 - INFO - MainProcess - Get LATEST chromedriver version for google-chrome
+2025-04-29 09:38:04,493 - INFO - MainProcess - Driver [C:\Users\luisarias\.wdm\drivers\chromedriver\win64\136.0.7103.48\chromedriver-win32/chromedriver.exe] found in cache
