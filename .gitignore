@@ -1,1 +1,75 @@
-foursquare_scraper.log
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+.venv/
+
+# Logs
+*.log
+logs/
+
+# Datos y archivos temporales
+data/*.json
+temp/
+.temp/
+*.tmp
+*.pkl
+
+# ChromeDriver y Selenium
+.wdm/
+drivers/
+chromedriver*
+geckodriver*
+
+# Archivos de configuración local
+.env
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# PyCharm
+.idea/
+*.iml
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de pickle (cookies)
+*.pkl
+cookies_*.pkl
+
+# Archivos temporales de sistema
+.~*
+~$*
