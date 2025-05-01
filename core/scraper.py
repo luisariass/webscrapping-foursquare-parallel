@@ -7,6 +7,7 @@ from core.parallel_executor import ParallelExecutor
 from utils.html_parser import HtmlParser
 from utils.file_handler import FileHandler
 from utils.http_client import HttpClient
+from utils.auth_manager import AuthManager
 from exceptions.scraper_exceptions import ScraperException
 
 logger = logging.getLogger(__name__)
@@ -14,9 +15,10 @@ logger = logging.getLogger(__name__)
 class FoursquareScraper:
     """Clase principal del scraper con funcionalidad modular"""
     
-    def __init__(self, max_workers=None, headless=True, max_retries=3):
+    def __init__(self, max_workers=None, headless=True, max_retries=3, use_auth=False):
         self.max_workers = max_workers
         self.max_retries = max_retries
+        self.use_auth = use_auth
         
         # Inicializar componentes
         self.browser_pool = BrowserPool(max_workers, headless, max_retries)
@@ -24,6 +26,14 @@ class FoursquareScraper:
         self.parser = HtmlParser()
         self.file_handler = FileHandler()
         self.http_client = HttpClient()
+        self.auth_manager = AuthManager()
+    
+    def create_initial_session(self) -> bool:
+        """
+        Inicia un navegador para que el usuario inicie sesión manualmente
+        y guarda las cookies para uso futuro
+        """
+        return self.auth_manager.create_initial_session(self.browser_pool)
     
     def scrape_urls(self, url_file_pairs: List[Tuple[str, str]]) -> List[Optional[Dict]]:
         """Método público principal para iniciar el scraping"""
@@ -38,8 +48,13 @@ class FoursquareScraper:
         
         for attempt in range(self.max_retries):
             try:
-                # Obtener HTML
-                html = self.browser_pool.extract_page_html(url, worker_id)
+                # Obtener HTML (con autenticación si está activada)
+                html = None
+                if self.use_auth:
+                    html = self.browser_pool.extract_page_html_with_auth(url, self.auth_manager, worker_id)
+                else:
+                    html = self.browser_pool.extract_page_html(url, worker_id)
+                    
                 if not html:
                     logger.warning(f"No se pudo obtener HTML de {url}")
                     return None

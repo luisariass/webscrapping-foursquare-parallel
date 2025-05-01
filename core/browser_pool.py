@@ -12,7 +12,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 from config.settings import (
     DEFAULT_MAX_WORKERS, DEFAULT_HEADLESS, MAX_SCROLL_CLICKS,
     USER_AGENT, PAGE_LOAD_TIMEOUT, WAIT_AFTER_PAGE_LOAD,
-    WAIT_BETWEEN_SCROLLS, WAIT_AFTER_BUTTON_CLICK
+    WAIT_BETWEEN_SCROLLS, WAIT_AFTER_BUTTON_CLICK, LOGIN_PAGE, 
+    COOKIE_REFRESH_TIME
 )
 
 logger = logging.getLogger(__name__)
@@ -25,7 +26,7 @@ class BrowserPool:
         self.headless = headless
         self.max_retries = max_retries
         self.drivers = self._init_driver_pool()
-    
+        
     def _init_driver_pool(self) -> List[webdriver.Chrome]:
         """Inicializa un pool de drivers Selenium"""
         logger.info(f"Inicializando pool con {self.max_workers} drivers")
@@ -41,10 +42,15 @@ class BrowserPool:
         chrome_options.add_argument("--disable-gpu")
         chrome_options.add_argument("--window-size=1920,1080")
         chrome_options.add_argument(f"user-agent={USER_AGENT}")
+        # Desactivar banderas de automatización para evitar detección
+        chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
+        chrome_options.add_experimental_option("useAutomationExtension", False)
         
         service = Service(ChromeDriverManager().install())
         driver = webdriver.Chrome(service=service, options=chrome_options)
         driver.set_page_load_timeout(PAGE_LOAD_TIMEOUT)
+        # Eliminar propiedad webdriver para evitar detección
+        driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
         return driver
     
     def get_driver(self, worker_id: int) -> webdriver.Chrome:
@@ -87,8 +93,44 @@ class BrowserPool:
             logger.error(f"Error al cargar {url}: {str(e)}")
             return False
     
+    def extract_page_html_with_auth(self, url: str, auth_manager, worker_id: int = 0) -> Optional[str]:
+        """Obtiene el HTML completo de la página usando autenticación"""
+        driver = self.get_driver(worker_id)
+        
+        try:
+            # Primero navegamos a la página de inicio de sesión
+            if not self.get_with_retry(driver, LOGIN_PAGE):
+                logger.error("No se pudo cargar la página de inicio de sesión")
+                return None
+                
+            # Cargar cookies (autenticación guardada)
+            if not auth_manager.load_cookies(driver):
+                logger.error("No se pudieron cargar las cookies. Ejecuta create_initial_session primero.")
+                return None
+            
+            # Refrescar para aplicar las cookies
+            driver.refresh()
+            time.sleep(COOKIE_REFRESH_TIME)
+            
+            # Navegar a la URL deseada
+            if not self.get_with_retry(driver, url):
+                logger.error(f"No se pudo cargar la URL: {url}")
+                return None
+            
+            # Comprobar si estamos autenticados correctamente
+            if not auth_manager.is_session_valid(driver):
+                logger.error("La sesión no es válida o ha expirado. Ejecuta create_initial_session de nuevo.")
+                return None
+                
+            time.sleep(WAIT_AFTER_PAGE_LOAD)
+            self.scroll_page(driver)
+            return driver.page_source
+        except Exception as e:
+            logger.error(f"Error en worker {worker_id} al extraer HTML con autenticación: {str(e)}")
+            return None
+    
     def extract_page_html(self, url: str, worker_id: int = 0) -> Optional[str]:
-        """Obtiene el HTML completo de la página"""
+        """Obtiene el HTML completo de la página sin autenticación"""
         driver = self.get_driver(worker_id)
         
         try:

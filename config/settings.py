@@ -21,3 +21,8 @@ WAIT_AFTER_PAGE_LOAD = 3
 WAIT_BETWEEN_SCROLLS = 1.5
 WAIT_AFTER_BUTTON_CLICK = 2
 RETRY_DELAY_BASE = 2
+
+# Configuración de autenticación
+COOKIES_FILE = os.path.join(BASE_DIR, "data", "cookies_foursquare.pkl")
+COOKIE_REFRESH_TIME = 2  # segundos para esperar después de cargar cookies
+LOGIN_PAGE = "https://es.foursquare.com/login"
