@@ -59,14 +59,11 @@ class AuthManager:
     def create_initial_session(self, browser_pool) -> bool:
         """
         Inicia un navegador para que el usuario inicie sesión manualmente
-        y guarda las cookies para uso futuro
+        y guarda las cookies para uso futuro. Solo abre una ventana.
         """
         try:
-            # Usar un navegador visible (no headless)
-            original_headless = browser_pool.headless
-            browser_pool.headless = False
-            
-            driver = browser_pool._setup_driver(0)
+            # Crear un navegador especial visible solo para autenticación
+            driver = browser_pool.create_auth_driver()
             
             # Navegar a la página de inicio de sesión
             driver.get("https://es.foursquare.com/login")
@@ -82,9 +79,6 @@ class AuthManager:
             
             # Cerrar el navegador
             driver.quit()
-            
-            # Restaurar configuración original
-            browser_pool.headless = original_headless
             
             if success:
                 print("Sesión guardada exitosamente. Ahora puedes ejecutar el scraper.")

@@ -2,308 +2,308 @@
     "metadata": {
         "fuente": "http://es.foursquare.com/explore?mode=url&ne=10.561735%2C-75.370502&q=Santa%20Cruz%20de%20Mompox&sw=10.333159%2C-75.658894",
         "total": 25,
-        "fecha": "2025-04-26 23:37:25"
+        "fecha": "2025-05-01 17:11:22"
     },
     "sitios": [
         {
             "id": 1,
-            "puntuacion": "9.3",
             "nombre": "Sofitel Santa Clara",
             "categoria": "Hotel",
             "direccion": "Calle del Torno 39-29, Cartagena de Indias",
+            "puntuacion": "9.3",
             "url_sitio": "http://es.foursquare.com/v/sofitel-santa-clara/4b51bb54f964a520cb5327e3",
             "usuario_reseña": "Carlos Torres H.",
             "fecha_reseña": "Diciembre 8, 2012",
             "contenido_reseña": "Excelente sitio para descansar y relajarse, buena atención, buena comida y acogedores lugares.",
-            "fecha_extraccion": "2025-04-26 23:37:25"
+            "fecha_extraccion": "2025-05-01 17:11:22"
         },
         {
             "id": 2,
-            "puntuacion": "9.3",
             "nombre": "Hotel Charleston Santa Teresa Cartagena de Indias",
             "categoria": "Hotel",
             "direccion": "Cra 3a # 31-23, Cartagena de Indias",
+            "puntuacion": "9.3",
             "url_sitio": "http://es.foursquare.com/v/hotel-charleston-santa-teresa-cartagena-de-indias/4bc8b35dc1c6eee1eed8fd92",
             "usuario_reseña": "Jesus G.",
             "fecha_reseña": "Diciembre 29, 2017",
             "contenido_reseña": "La terraza para ver el atardecer , buenos cócteles !",
-            "fecha_extraccion": "2025-04-26 23:37:25"
+            "fecha_extraccion": "2025-05-01 17:11:22"
         },
         {
             "id": 3,
-            "puntuacion": "8.6",
             "nombre": "Hotel Las Américas Casa de Playa",
             "categoria": "Hotel",
             "direccion": "Anillo Vial, Sector Cielo Mar, Cartagena de Indias",
+            "puntuacion": "8.6",
             "url_sitio": "http://es.foursquare.com/v/hotel-las-am%C3%A9ricas-casa-de-playa/4bcf815e0ffdce72048fb2c0",
             "usuario_reseña": "Yurany D.",
             "fecha_reseña": "Mayo 7, 2015",
             "contenido_reseña": "Excelente la atención del personal, súper pendientes de todo",
-            "fecha_extraccion": "2025-04-26 23:37:25"
+            "fecha_extraccion": "2025-05-01 17:11:22"
         },
         {
             "id": 4,
-            "puntuacion": "8.4",
             "nombre": "Restaurante ERRE de Ramón Freixa",
             "categoria": "Restaurante",
             "direccion": "Hotel Las Américas Anillo Vial sector Cielo Mar, Cartagena de Indias",
+            "puntuacion": "8.4",
             "url_sitio": "http://es.foursquare.com/v/restaurante-erre-de-ram%C3%B3n-freixa/4eb2f8f97beb75bad2172b0b",
             "usuario_reseña": "Camila O.",
             "fecha_reseña": "Enero 18, 2015",
             "contenido_reseña": "El cochinillo es el mejor! Carne muy suave",
-            "fecha_extraccion": "2025-04-26 23:37:25"
+            "fecha_extraccion": "2025-05-01 17:11:22"
         },
         {
             "id": 5,
-            "puntuacion": "8.1",
             "nombre": "Plaza Santa Teresa",
             "categoria": "Plaza",
             "direccion": "Cartagena de Indias",
+            "puntuacion": "8.1",
             "url_sitio": "http://es.foursquare.com/v/plaza-santa-teresa/4d041790e350b60c763d8142",
             "usuario_reseña": "Ursula S.",
             "fecha_reseña": "Marzo 20, 2017",
             "contenido_reseña": "Pide chicharrones. Y un mojito. Campeón",
-            "fecha_extraccion": "2025-04-26 23:37:25"
+            "fecha_extraccion": "2025-05-01 17:11:22"
         },
         {
             "id": 6,
-            "puntuacion": "8.1",
             "nombre": "Hotel Corales de Indias",
             "categoria": "Hotel",
             "direccion": "Av. Santander, Cra. 1 nro 62 - 198 (Cruzar la Calle), Cartagena de Indias",
+            "puntuacion": "8.1",
             "url_sitio": "http://es.foursquare.com/v/hotel-corales-de-indias/5292fb4c11d281f68722f074",
             "usuario_reseña": "Viviana B.",
             "fecha_reseña": "Octubre 27, 2015",
             "contenido_reseña": "Excelente el servicio de todo el personal, realmente se preocupan por los huéspedes, habitaciones súper, me voy muy contenta del hotel lo recomendaría mucho.....",
-            "fecha_extraccion": "2025-04-26 23:37:25"
+            "fecha_extraccion": "2025-05-01 17:11:22"
         },
         {
             "id": 7,
-            "puntuacion": "8.1",
             "nombre": "Convento Santa Cruz de la Popa",
             "categoria": "Sitio histórico y protegido",
             "direccion": "Cartagena de Indias",
+            "puntuacion": "8.1",
             "url_sitio": "http://es.foursquare.com/v/convento-santa-cruz-de-la-popa/4ef35b4c5c5cd8c3b386ab9a",
             "usuario_reseña": "Karenina A.",
             "fecha_reseña": "Julio 29, 2015",
             "contenido_reseña": "La vista es excelente",
-            "fecha_extraccion": "2025-04-26 23:37:25"
+            "fecha_extraccion": "2025-05-01 17:11:22"
         },
         {
             "id": 8,
-            "puntuacion": "7.9",
             "nombre": "Bahía de Santa Cruz de Castillo Grande",
             "categoria": "Playa",
             "direccion": "Cartagena de Índias",
+            "puntuacion": "7.9",
             "url_sitio": "http://es.foursquare.com/v/bah%C3%ADa-de-santa-cruz-de-castillo-grande/58eff195aa6c955cd790260f",
             "usuario_reseña": "N/A",
             "fecha_reseña": "N/A",
             "contenido_reseña": "N/A",
-            "fecha_extraccion": "2025-04-26 23:37:25"
+            "fecha_extraccion": "2025-05-01 17:11:22"
         },
         {
             "id": 9,
-            "puntuacion": "7.7",
             "nombre": "Bóvedas de Santa Clara Hotel Boutique",
             "categoria": "Hotel",
             "direccion": "Cll Del Torno, 39 - 29, Cartagena de Indias",
+            "puntuacion": "7.7",
             "url_sitio": "http://es.foursquare.com/v/b%C3%B3vedas-de-santa-clara-hotel-boutique/4bba137153649c74da9448fb",
             "usuario_reseña": "Nico A.",
             "fecha_reseña": "Diciembre 4, 2017",
             "contenido_reseña": "Excelente hotel. Tiene todas las comodidades de un hotel boutique y puedes usar todas las amenidades del Sofitel, a una calle! Excelente!",
-            "fecha_extraccion": "2025-04-26 23:37:25"
+            "fecha_extraccion": "2025-05-01 17:11:22"
         },
         {
             "id": 10,
-            "puntuacion": "7.7",
             "nombre": "Centro Comercial Caribe Plaza",
             "categoria": "Centro comercial",
             "direccion": "Cll 29D # 22 - 108, Cartagena de Indias",
+            "puntuacion": "7.7",
             "url_sitio": "http://es.foursquare.com/v/centro-comercial-caribe-plaza/4e0b3066091a24e92f01c4be",
-            "usuario_reseña": "Camilo Q.",
-            "fecha_reseña": "Septiembre 30, 2012",
-            "contenido_reseña": "No pida el chuletón de res. El cóctel de la casa es muy bueno, recomendado.",
-            "fecha_extraccion": "2025-04-26 23:37:25"
+            "usuario_reseña": "Omar P.",
+            "fecha_reseña": "Diciembre 6, 2010",
+            "contenido_reseña": "la plaza de comidas y en general siempre es imposible ..todo esta lleno",
+            "fecha_extraccion": "2025-05-01 17:11:22"
         },
         {
             "id": 11,
-            "puntuacion": "7.6",
             "nombre": "Santa Maria Del Mar Cafe",
             "categoria": "Mariscos",
             "direccion": "Cartagena de Indias",
+            "puntuacion": "7.6",
             "url_sitio": "http://es.foursquare.com/v/santa-maria-del-mar-cafe/58ab2d62e9233e6cb7152915",
-            "usuario_reseña": "Márcio S.",
-            "fecha_reseña": "Julio 13, 2017",
-            "contenido_reseña": "Recomendo a cerveja Club Colombia Dorada. Os ceviches são ótimos, mas me apaixonei pela arepa com ovos, tomate e queijo. Foi o ovo frito mais perfeito que já comi. Tem Wi-Fi e ar condicionado. Oásis!",
-            "fecha_extraccion": "2025-04-26 23:37:25"
+            "usuario_reseña": "Jessie B.",
+            "fecha_reseña": "Febrero 20, 2017",
+            "contenido_reseña": "Cute lunch spot.  Great stop for a beer on a hot day touring Cartagena.",
+            "fecha_extraccion": "2025-05-01 17:11:22"
         },
         {
             "id": 12,
-            "puntuacion": "N/A",
             "nombre": "Restaurante Conde de la Cruz",
             "categoria": "Latinoamericana",
             "direccion": "Plaza Santo Domingo",
+            "puntuacion": "N/A",
             "url_sitio": "http://es.foursquare.com/v/restaurante-conde-de-la-cruz/4de05ca4b0fbe2cfa6054861",
             "usuario_reseña": "Jenny G.",
             "fecha_reseña": "Agosto 21, 2012",
             "contenido_reseña": "La cazuela (especialidad de la casa) de las mejores que me he comido.",
-            "fecha_extraccion": "2025-04-26 23:37:25"
+            "fecha_extraccion": "2025-05-01 17:11:22"
         },
         {
             "id": 13,
-            "puntuacion": "N/A",
             "nombre": "Santa Alejandría Hotel",
             "categoria": "Hotel",
             "direccion": "No.9 - 42 (Calle De La Cruz), Cartagena de Indias",
+            "puntuacion": "N/A",
             "url_sitio": "http://es.foursquare.com/v/santa-alejandr%C3%ADa-hotel/563acf4ecd1071d1c95d49a6",
             "usuario_reseña": "Jose Lorenzo C.",
             "fecha_reseña": "Marzo 24, 2016",
             "contenido_reseña": "La hospitalidad, AC de los cuartos, desayuno, cerca del centro",
-            "fecha_extraccion": "2025-04-26 23:37:25"
+            "fecha_extraccion": "2025-05-01 17:11:22"
         },
         {
             "id": 14,
-            "puntuacion": "N/A",
             "nombre": "Restaurante Santa Cruz",
             "categoria": "Sudamericana",
             "direccion": "",
+            "puntuacion": "N/A",
             "url_sitio": "http://es.foursquare.com/v/restaurante-santa-cruz/534d6f53498ec0a5b106e54c",
             "usuario_reseña": "Maleja H.",
             "fecha_reseña": "Marzo 4, 2015",
             "contenido_reseña": "Recomiendo la picada para compartir!!! Ademas los platos son grandes y deliciosos",
-            "fecha_extraccion": "2025-04-26 23:37:25"
+            "fecha_extraccion": "2025-05-01 17:11:22"
         },
         {
             "id": 15,
-            "puntuacion": "N/A",
             "nombre": "Catedral Santa Catalina De Alejandría",
             "categoria": "Iglesia",
             "direccion": "Cartagena de Indias",
+            "puntuacion": "N/A",
             "url_sitio": "http://es.foursquare.com/v/catedral-santa-catalina-de-alejandr%C3%ADa/4cf19e5e94feb1f76d9418ba",
-            "usuario_reseña": "Luisger L.",
-            "fecha_reseña": "Enero 1, 2014",
-            "contenido_reseña": "La acústica no es la mejor, pero la grandeza de La Catedral hace que valga la pena ir a Misa acá.",
-            "fecha_extraccion": "2025-04-26 23:37:25"
+            "usuario_reseña": "Jesús B.",
+            "fecha_reseña": "Agosto 11, 2018",
+            "contenido_reseña": "Todo un icono en Cartagena! Visítala, sin duda es hermosa!",
+            "fecha_extraccion": "2025-05-01 17:11:22"
         },
         {
             "id": 16,
-            "puntuacion": "N/A",
             "nombre": "Salón Santa Clara (Hotel Sofitel)",
             "categoria": "Sala de conciertos",
             "direccion": "",
+            "puntuacion": "N/A",
             "url_sitio": "http://es.foursquare.com/v/sal%C3%B3n-santa-clara-hotel-sofitel/51054601e4b09faec13c2309",
             "usuario_reseña": "N/A",
             "fecha_reseña": "N/A",
             "contenido_reseña": "N/A",
-            "fecha_extraccion": "2025-04-26 23:37:25"
+            "fecha_extraccion": "2025-05-01 17:11:22"
         },
         {
             "id": 17,
-            "puntuacion": "N/A",
             "nombre": "Clinica Santa Cruz de Bocagrande",
             "categoria": "Médico",
             "direccion": "Cra. 3 # 8-177 (Bocagrande), Cartagena de Indias",
+            "puntuacion": "N/A",
             "url_sitio": "http://es.foursquare.com/v/clinica-santa-cruz-de-bocagrande/4d781eb04b30a143a09a8dcb",
-            "usuario_reseña": "Jorge R.",
-            "fecha_reseña": "Octubre 22, 2013",
-            "contenido_reseña": "El Mejor Día De Mi Vida, Dios Los Bendiga",
-            "fecha_extraccion": "2025-04-26 23:37:25"
+            "usuario_reseña": "Sofia O.",
+            "fecha_reseña": "Julio 5, 2012",
+            "contenido_reseña": "Bienestar para la mujer y su familia. Mamitas: Pregunten por los planes cigüeña!",
+            "fecha_extraccion": "2025-05-01 17:11:22"
         },
         {
             "id": 18,
-            "puntuacion": "N/A",
             "nombre": "Monica Cruz L'Peluqueria",
             "categoria": "Peluquería",
             "direccion": "Centro Comercial Mall Plaza, Cartagena de Indias",
+            "puntuacion": "N/A",
             "url_sitio": "http://es.foursquare.com/v/monica-cruz-lpeluqueria/52d30bc211d25021b1d38d31",
             "usuario_reseña": "Lilo P.",
             "fecha_reseña": "Mayo 18, 2014",
             "contenido_reseña": "Deirys la mejor de todas ! No dudén en apartar su cita con ella.",
-            "fecha_extraccion": "2025-04-26 23:37:25"
+            "fecha_extraccion": "2025-05-01 17:11:22"
         },
         {
             "id": 19,
-            "puntuacion": "N/A",
             "nombre": "Baluarte de Santa Catalina",
             "categoria": "Sitio histórico y protegido",
             "direccion": "Museo de las Fortificaciones, Cartagena de Indias",
+            "puntuacion": "N/A",
             "url_sitio": "http://es.foursquare.com/v/baluarte-de-santa-catalina/5093dac3e4b0abc85568dd72",
             "usuario_reseña": "N/A",
             "fecha_reseña": "N/A",
             "contenido_reseña": "N/A",
-            "fecha_extraccion": "2025-04-26 23:37:25"
+            "fecha_extraccion": "2025-05-01 17:11:22"
         },
         {
             "id": 20,
-            "puntuacion": "N/A",
             "nombre": "Patio De La Cruz",
             "categoria": "Pensión",
             "direccion": "Calle de la Cruz (Carrera 9), Cartagena de Indias",
+            "puntuacion": "N/A",
             "url_sitio": "http://es.foursquare.com/v/patio-de-la-cruz/507a22b8e4b07d24b0d5e199",
             "usuario_reseña": "Giselula17",
             "fecha_reseña": "Octubre 16, 2012",
             "contenido_reseña": "Super Recomendado, limpio, las habitaciones super! Lo malo es la instalación de la ducha no esta bien hecha y el agua cae a la pared y desayuno muy completo pero si dicen a las 7 q a esa hora sea!",
-            "fecha_extraccion": "2025-04-26 23:37:25"
+            "fecha_extraccion": "2025-05-01 17:11:22"
         },
         {
             "id": 21,
-            "puntuacion": "N/A",
             "nombre": "Mónica Cruz - Centro de Estética Facial y Corporal",
             "categoria": "Spa",
             "direccion": "Av. San Martín # 8-145 Local 04, Cartagena de Indias",
+            "puntuacion": "N/A",
             "url_sitio": "http://es.foursquare.com/v/m%C3%B3nica-cruz--centro-de-est%C3%A9tica-facial-y-corporal/4d2a402b3c79548158c1de9b",
-            "usuario_reseña": "Andrius A.",
-            "fecha_reseña": "Julio 26, 2014",
-            "contenido_reseña": "La peluquería de niños es muy buena. Pacientes , cómoda y buenos cortes!",
-            "fecha_extraccion": "2025-04-26 23:37:25"
+            "usuario_reseña": "Clara Ximena M.",
+            "fecha_reseña": "Abril 11, 2013",
+            "contenido_reseña": "Amplias salas de masajes, muy cómodas!",
+            "fecha_extraccion": "2025-05-01 17:11:22"
         },
         {
             "id": 22,
-            "puntuacion": "N/A",
             "nombre": "Entrega de equipaje",
             "categoria": "Área de reclamo de equipaje",
             "direccion": "Aeropuerto CTG, Cartagena de Indias",
+            "puntuacion": "N/A",
             "url_sitio": "http://es.foursquare.com/v/entrega-de-equipaje/5a223ce375a6ea748f9b8079",
             "usuario_reseña": "HUGO G.",
             "fecha_reseña": "Abril 12, 2019",
             "contenido_reseña": "Nada es bueno, espacios pequeños, incómodo y tardío recibo del equipaje. Sobretodo que las aerolíneas pequeñas empiezan a recibir equipaje sobre el tiempo, generando mas congestión e incomodidad.",
-            "fecha_extraccion": "2025-04-26 23:37:25"
+            "fecha_extraccion": "2025-05-01 17:11:22"
         },
         {
             "id": 23,
-            "puntuacion": "N/A",
             "nombre": "Iglesia santa cruz de manga",
             "categoria": "Iglesia",
             "direccion": "",
+            "puntuacion": "N/A",
             "url_sitio": "http://es.foursquare.com/v/iglesia-santa-cruz-de-manga/4f418fcbe4b0f4e3fc5187f0",
             "usuario_reseña": "N/A",
             "fecha_reseña": "N/A",
             "contenido_reseña": "N/A",
-            "fecha_extraccion": "2025-04-26 23:37:25"
+            "fecha_extraccion": "2025-05-01 17:11:22"
         },
         {
             "id": 24,
-            "puntuacion": "N/A",
             "nombre": "Parroquia Santa Cruz de Manga",
             "categoria": "Iglesia",
             "direccion": "",
+            "puntuacion": "N/A",
             "url_sitio": "http://es.foursquare.com/v/parroquia-santa-cruz-de-manga/5229f66511d2bc31be44968d",
             "usuario_reseña": "N/A",
             "fecha_reseña": "N/A",
             "contenido_reseña": "N/A",
-            "fecha_extraccion": "2025-04-26 23:37:25"
+            "fecha_extraccion": "2025-05-01 17:11:22"
         },
         {
             "id": 25,
-            "puntuacion": "N/A",
             "nombre": "Hotel Santa Cruz Cartagena de Indias",
             "categoria": "Hotel",
             "direccion": "Calle de la Moneda 7-54, Cartagena de Indias",
+            "puntuacion": "N/A",
             "url_sitio": "http://es.foursquare.com/v/hotel-santa-cruz-cartagena-de-indias/4be1af308dd062b5087c3e3c",
             "usuario_reseña": "Mauricio G.",
             "fecha_reseña": "Junio 22, 2015",
             "contenido_reseña": "Excelente ubicación y relación costo beneficio, limpio ordenado y cómodo. Se escucha mucho ruido en las habitaciones cerca a la recepción.",
-            "fecha_extraccion": "2025-04-26 23:37:25"
+            "fecha_extraccion": "2025-05-01 17:11:22"
         }
     ]
 }

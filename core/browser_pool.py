@@ -1,7 +1,7 @@
 import logging
 import time
 import multiprocessing
-from typing import List, Optional
+from typing import List, Optional, Dict
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
@@ -25,12 +25,8 @@ class BrowserPool:
         self.max_workers = max_workers or DEFAULT_MAX_WORKERS
         self.headless = headless
         self.max_retries = max_retries
-        self.drivers = self._init_driver_pool()
-        
-    def _init_driver_pool(self) -> List[webdriver.Chrome]:
-        """Inicializa un pool de drivers Selenium"""
-        logger.info(f"Inicializando pool con {self.max_workers} drivers")
-        return [self._setup_driver(i) for i in range(self.max_workers)]
+        # Inicialización perezosa - solo almacenamos los drivers cuando realmente se necesitan
+        self.drivers: Dict[int, webdriver.Chrome] = {}
     
     def _setup_driver(self, worker_id: int) -> webdriver.Chrome:
         """Configura un driver Selenium optimizado"""
@@ -54,8 +50,32 @@ class BrowserPool:
         return driver
     
     def get_driver(self, worker_id: int) -> webdriver.Chrome:
-        """Obtiene un driver del pool basado en el worker_id"""
-        return self.drivers[worker_id % self.max_workers]
+        """Obtiene un driver del pool basado en el worker_id, creándolo si no existe"""
+        worker_id = worker_id % self.max_workers  # Asegurar que esté en el rango correcto
+        
+        # Crear el driver solo si no existe para este worker_id
+        if worker_id not in self.drivers:
+            logger.info(f"Creando nuevo driver para worker {worker_id}")
+            self.drivers[worker_id] = self._setup_driver(worker_id)
+            
+        return self.drivers[worker_id]
+    
+    def create_auth_driver(self) -> webdriver.Chrome:
+        """Crea un driver específico para autenticación (siempre visible)"""
+        # Guardamos el estado actual del modo headless
+        original_headless = self.headless
+        # Forzamos visibilidad para autenticación
+        self.headless = False
+        
+        # Crear un driver especial para autenticación
+        auth_driver = self._setup_driver(0)
+        
+        # Restauramos el estado original
+        self.headless = original_headless
+        
+        return auth_driver
+    
+    # Resto de métodos permanecen iguales
     
     def scroll_page(self, driver: webdriver.Chrome, max_clicks: int = MAX_SCROLL_CLICKS) -> None:
         """Hace scroll para cargar más resultados"""
@@ -147,8 +167,10 @@ class BrowserPool:
     def close(self) -> None:
         """Cierra todos los drivers"""
         logger.info("Cerrando pool de drivers")
-        for driver in self.drivers:
+        for worker_id, driver in self.drivers.items():
             try:
                 driver.quit()
+                logger.debug(f"Driver {worker_id} cerrado correctamente")
             except Exception as e:
-                logger.warning(f"Error al cerrar driver: {str(e)}")
+                logger.warning(f"Error al cerrar driver {worker_id}: {str(e)}")
+        self.drivers = {}

@@ -49,3 +49,17 @@ class FileHandler:
             },
             "sitios": valid_venues
         }
+        
+    def prepare_user_profiles_data(self, user_profiles: List, url: str) -> Dict:
+        """Prepara la estructura de datos para los perfiles de usuario"""
+        valid_profiles = [profile.to_dict() for profile in user_profiles if profile is not None]
+        
+        return {
+            "metadata": {
+                "fuente": url,
+                "total_usuarios": len(valid_profiles),
+                "total_reviews": sum(len(profile.reviews) for profile in user_profiles if profile is not None),
+                "fecha": time.strftime("%Y-%m-%d %H:%M:%S")
+            },
+            "usuarios": valid_profiles
+        }

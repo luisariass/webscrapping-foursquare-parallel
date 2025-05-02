@@ -303,3 +303,566 @@
 2025-05-01 16:30:12,559 - INFO - MainProcess - Scraping completado en 9.21s - 0/5 exitosos
 2025-05-01 16:30:12,559 - INFO - MainProcess - Cerrando recursos del scraper
 2025-05-01 16:30:12,560 - INFO - MainProcess - Cerrando pool de drivers
+2025-05-01 16:57:02,214 - INFO - MainProcess - Inicializando pool con 16 drivers
+2025-05-01 16:57:02,214 - INFO - MainProcess - ====== WebDriver manager ======
+2025-05-01 16:57:05,769 - INFO - MainProcess - Get LATEST chromedriver version for google-chrome
+2025-05-01 16:57:05,861 - INFO - MainProcess - Get LATEST chromedriver version for google-chrome
+2025-05-01 16:57:05,947 - INFO - MainProcess - Driver [C:\Users\luisarias\.wdm\drivers\chromedriver\win64\136.0.7103.49\chromedriver-win32/chromedriver.exe] found in cache
+2025-05-01 16:57:07,167 - INFO - MainProcess - ====== WebDriver manager ======
+2025-05-01 16:57:10,697 - INFO - MainProcess - Get LATEST chromedriver version for google-chrome
+2025-05-01 16:57:10,772 - INFO - MainProcess - Get LATEST chromedriver version for google-chrome
+2025-05-01 16:57:10,848 - INFO - MainProcess - Driver [C:\Users\luisarias\.wdm\drivers\chromedriver\win64\136.0.7103.49\chromedriver-win32/chromedriver.exe] found in cache
+2025-05-01 16:57:12,087 - INFO - MainProcess - ====== WebDriver manager ======
+2025-05-01 16:57:15,678 - INFO - MainProcess - Get LATEST chromedriver version for google-chrome
+2025-05-01 16:57:15,751 - INFO - MainProcess - Get LATEST chromedriver version for google-chrome
+2025-05-01 16:57:15,832 - INFO - MainProcess - Driver [C:\Users\luisarias\.wdm\drivers\chromedriver\win64\136.0.7103.49\chromedriver-win32/chromedriver.exe] found in cache
+2025-05-01 16:57:16,987 - INFO - MainProcess - ====== WebDriver manager ======
+2025-05-01 17:09:41,935 - INFO - MainProcess - ====== WebDriver manager ======
+2025-05-01 17:09:45,339 - INFO - MainProcess - Get LATEST chromedriver version for google-chrome
+2025-05-01 17:09:45,424 - INFO - MainProcess - Get LATEST chromedriver version for google-chrome
+2025-05-01 17:09:45,502 - INFO - MainProcess - Driver [C:\Users\luisarias\.wdm\drivers\chromedriver\win64\136.0.7103.49\chromedriver-win32/chromedriver.exe] found in cache
+2025-05-01 17:10:43,270 - INFO - MainProcess - Cookies guardadas en C:\Users\luisarias\Documents\foursqueare-pararell\data\cookies_foursquare.pkl
+2025-05-01 17:10:45,478 - INFO - MainProcess - Configuración de autenticación completada con éxito
+2025-05-01 17:10:55,912 - INFO - MainProcess - Iniciando ejecución paralela con 16 workers
+2025-05-01 17:10:55,913 - INFO - MainProcess - Iniciando scrape de https://es.foursquare.com/explore?mode=url&near=Cartagena%20de%20Indias%2C%20Bol%C3%ADvar%2C%20Colombia&nearGeoId=72057594041615174 (worker 0)
+2025-05-01 17:10:55,913 - INFO - MainProcess - Creando nuevo driver para worker 0
+2025-05-01 17:10:55,914 - INFO - MainProcess - Iniciando scrape de https://es.foursquare.com/explore?mode=url&near=Santa%20Marta%2C%20Magdalena&nearGeoId=72057594041596541 (worker 1)
+2025-05-01 17:10:55,914 - INFO - MainProcess - ====== WebDriver manager ======
+2025-05-01 17:10:55,914 - INFO - MainProcess - Iniciando scrape de http://es.foursquare.com/explore?mode=url&ne=10.561735%2C-75.370502&q=Santa%20Cruz%20de%20Mompox&sw=10.333159%2C-75.658894 (worker 2)
+2025-05-01 17:10:55,915 - INFO - MainProcess - Creando nuevo driver para worker 1
+2025-05-01 17:10:55,915 - INFO - MainProcess - Iniciando scrape de https://es.foursquare.com/explore?mode=url&ne=10.634965%2C-75.06443&q=Turbaco&sw=10.177753%2C-75.641212 (worker 3)
+2025-05-01 17:10:55,915 - INFO - MainProcess - Iniciando scrape de https://es.foursquare.com/explore?mode=url&near=Cove%C3%B1as%2C%20Sucre%2C%20Colombia&nearGeoId=72057594041613648 (worker 4)
+2025-05-01 17:10:55,916 - INFO - MainProcess - Creando nuevo driver para worker 2
+2025-05-01 17:10:55,916 - INFO - MainProcess - ====== WebDriver manager ======
+2025-05-01 17:10:55,917 - INFO - MainProcess - Creando nuevo driver para worker 3
+2025-05-01 17:10:55,917 - INFO - MainProcess - Creando nuevo driver para worker 4
+2025-05-01 17:10:55,917 - INFO - MainProcess - ====== WebDriver manager ======
+2025-05-01 17:10:55,918 - INFO - MainProcess - ====== WebDriver manager ======
+2025-05-01 17:10:55,919 - INFO - MainProcess - ====== WebDriver manager ======
+2025-05-01 17:11:02,712 - INFO - MainProcess - Get LATEST chromedriver version for google-chrome
+2025-05-01 17:11:02,718 - INFO - MainProcess - Get LATEST chromedriver version for google-chrome
+2025-05-01 17:11:02,771 - INFO - MainProcess - Get LATEST chromedriver version for google-chrome
+2025-05-01 17:11:02,812 - INFO - MainProcess - Get LATEST chromedriver version for google-chrome
+2025-05-01 17:11:02,812 - INFO - MainProcess - Get LATEST chromedriver version for google-chrome
+2025-05-01 17:11:02,852 - INFO - MainProcess - Get LATEST chromedriver version for google-chrome
+2025-05-01 17:11:02,878 - INFO - MainProcess - Get LATEST chromedriver version for google-chrome
+2025-05-01 17:11:02,907 - INFO - MainProcess - Driver [C:\Users\luisarias\.wdm\drivers\chromedriver\win64\136.0.7103.49\chromedriver-win32/chromedriver.exe] found in cache
+2025-05-01 17:11:02,907 - INFO - MainProcess - Driver [C:\Users\luisarias\.wdm\drivers\chromedriver\win64\136.0.7103.49\chromedriver-win32/chromedriver.exe] found in cache
+2025-05-01 17:11:02,933 - INFO - MainProcess - Driver [C:\Users\luisarias\.wdm\drivers\chromedriver\win64\136.0.7103.49\chromedriver-win32/chromedriver.exe] found in cache
+2025-05-01 17:11:02,961 - INFO - MainProcess - Get LATEST chromedriver version for google-chrome
+2025-05-01 17:11:03,035 - INFO - MainProcess - Driver [C:\Users\luisarias\.wdm\drivers\chromedriver\win64\136.0.7103.49\chromedriver-win32/chromedriver.exe] found in cache
+2025-05-01 17:11:03,047 - INFO - MainProcess - Get LATEST chromedriver version for google-chrome
+2025-05-01 17:11:03,119 - INFO - MainProcess - Get LATEST chromedriver version for google-chrome
+2025-05-01 17:11:03,196 - INFO - MainProcess - Driver [C:\Users\luisarias\.wdm\drivers\chromedriver\win64\136.0.7103.49\chromedriver-win32/chromedriver.exe] found in cache
+2025-05-01 17:11:07,238 - INFO - MainProcess - Cookies cargadas desde C:\Users\luisarias\Documents\foursqueare-pararell\data\cookies_foursquare.pkl
+2025-05-01 17:11:07,688 - INFO - MainProcess - Cookies cargadas desde C:\Users\luisarias\Documents\foursqueare-pararell\data\cookies_foursquare.pkl
+2025-05-01 17:11:09,004 - INFO - MainProcess - Cookies cargadas desde C:\Users\luisarias\Documents\foursqueare-pararell\data\cookies_foursquare.pkl
+2025-05-01 17:11:09,029 - INFO - MainProcess - Cookies cargadas desde C:\Users\luisarias\Documents\foursqueare-pararell\data\cookies_foursquare.pkl
+2025-05-01 17:11:09,105 - INFO - MainProcess - Cookies cargadas desde C:\Users\luisarias\Documents\foursqueare-pararell\data\cookies_foursquare.pkl
+2025-05-01 17:11:19,737 - INFO - MainProcess - Procesando 12 sitios de https://es.foursquare.com/explore?mode=url&near=Cove%C3%B1as%2C%20Sucre%2C%20Colombia&nearGeoId=72057594041613648
+2025-05-01 17:11:19,746 - INFO - MainProcess - Datos guardados en data\covenas_venues.json
+2025-05-01 17:11:19,747 - INFO - MainProcess - Completado: https://es.foursquare.com/explore?mode=url&near=Cove%C3%B1as%2C%20Sucre%2C%20Colombia&nearGeoId=72057594041613648
+2025-05-01 17:11:20,563 - INFO - MainProcess - Cargando más resultados (#1)
+2025-05-01 17:11:20,989 - INFO - MainProcess - Procesando 11 sitios de https://es.foursquare.com/explore?mode=url&ne=10.634965%2C-75.06443&q=Turbaco&sw=10.177753%2C-75.641212
+2025-05-01 17:11:20,995 - INFO - MainProcess - Datos guardados en data\turbaco.json
+2025-05-01 17:11:20,996 - INFO - MainProcess - Completado: https://es.foursquare.com/explore?mode=url&ne=10.634965%2C-75.06443&q=Turbaco&sw=10.177753%2C-75.641212
+2025-05-01 17:11:21,966 - INFO - MainProcess - Cargando más resultados (#1)
+2025-05-01 17:11:22,235 - INFO - MainProcess - Procesando 25 sitios de http://es.foursquare.com/explore?mode=url&ne=10.561735%2C-75.370502&q=Santa%20Cruz%20de%20Mompox&sw=10.333159%2C-75.658894
+2025-05-01 17:11:22,247 - INFO - MainProcess - Datos guardados en data\mompox_venues.json
+2025-05-01 17:11:22,248 - INFO - MainProcess - Completado: http://es.foursquare.com/explore?mode=url&ne=10.561735%2C-75.370502&q=Santa%20Cruz%20de%20Mompox&sw=10.333159%2C-75.658894
+2025-05-01 17:11:24,129 - INFO - MainProcess - Cargando más resultados (#2)
+2025-05-01 17:11:25,544 - INFO - MainProcess - Cargando más resultados (#2)
+2025-05-01 17:11:27,711 - INFO - MainProcess - Cargando más resultados (#3)
+2025-05-01 17:11:29,121 - INFO - MainProcess - Cargando más resultados (#3)
+2025-05-01 17:11:31,261 - INFO - MainProcess - Cargando más resultados (#4)
+2025-05-01 17:11:32,672 - INFO - MainProcess - Cargando más resultados (#4)
+2025-05-01 17:11:34,800 - INFO - MainProcess - Cargando más resultados (#5)
+2025-05-01 17:11:36,253 - INFO - MainProcess - Cargando más resultados (#5)
+2025-05-01 17:11:38,340 - INFO - MainProcess - Cargando más resultados (#6)
+2025-05-01 17:11:39,851 - INFO - MainProcess - Cargando más resultados (#6)
+2025-05-01 17:11:41,919 - INFO - MainProcess - Cargando más resultados (#7)
+2025-05-01 17:11:43,418 - INFO - MainProcess - Cargando más resultados (#7)
+2025-05-01 17:11:45,876 - INFO - MainProcess - Procesando 236 sitios de https://es.foursquare.com/explore?mode=url&near=Cartagena%20de%20Indias%2C%20Bol%C3%ADvar%2C%20Colombia&nearGeoId=72057594041615174
+2025-05-01 17:11:45,950 - INFO - MainProcess - Datos guardados en data\cartagena_venues.json
+2025-05-01 17:11:45,951 - INFO - MainProcess - Completado: https://es.foursquare.com/explore?mode=url&near=Cartagena%20de%20Indias%2C%20Bol%C3%ADvar%2C%20Colombia&nearGeoId=72057594041615174
+2025-05-01 17:11:47,409 - INFO - MainProcess - Procesando 222 sitios de https://es.foursquare.com/explore?mode=url&near=Santa%20Marta%2C%20Magdalena&nearGeoId=72057594041596541
+2025-05-01 17:11:47,475 - INFO - MainProcess - Datos guardados en data\santa_marta_venues.json
+2025-05-01 17:11:47,476 - INFO - MainProcess - Completado: https://es.foursquare.com/explore?mode=url&near=Santa%20Marta%2C%20Magdalena&nearGeoId=72057594041596541
+2025-05-01 17:11:47,477 - INFO - MainProcess - Scraping completado en 51.56s - 5/5 exitosos
+2025-05-01 17:11:47,477 - INFO - MainProcess - Cerrando recursos del scraper
+2025-05-01 17:11:47,477 - INFO - MainProcess - Cerrando pool de drivers
+2025-05-01 18:16:42,822 - INFO - MainProcess - Iniciando ejecución paralela con 1 workers
+2025-05-01 18:16:42,822 - INFO - MainProcess - Iniciando extracción de usuarios y reseñas de https://es.foursquare.com/v/alqu%C3%ADmico/56ecf121498e3aa68341604b (worker 0)
+2025-05-01 18:16:42,823 - INFO - MainProcess - Creando nuevo driver para worker 0
+2025-05-01 18:16:42,823 - INFO - MainProcess - ====== WebDriver manager ======
+2025-05-01 18:16:46,224 - INFO - MainProcess - Get LATEST chromedriver version for google-chrome
+2025-05-01 18:16:46,328 - INFO - MainProcess - Get LATEST chromedriver version for google-chrome
+2025-05-01 18:16:46,411 - INFO - MainProcess - Driver [C:\Users\luisarias\.wdm\drivers\chromedriver\win64\136.0.7103.49\chromedriver-win32/chromedriver.exe] found in cache
+2025-05-01 18:16:51,042 - INFO - MainProcess - Cookies cargadas desde C:\Users\luisarias\Documents\foursqueare-pararell\data\cookies_foursquare.pkl
+2025-05-01 18:16:54,618 - INFO - MainProcess - Extrayendo reseñas de: https://es.foursquare.com/v/alqu%C3%ADmico/56ecf121498e3aa68341604b
+2025-05-01 18:17:10,825 - WARNING - MainProcess - No se encontró una sección separada de reseñas, intentando extraer de la página actual
+2025-05-01 18:17:10,848 - INFO - MainProcess - Se encontraron 4 reseñas para procesar
+2025-05-01 18:17:10,874 - WARNING - MainProcess - No se encontró enlace al usuario en la reseña #1
+2025-05-01 18:17:14,317 - ERROR - MainProcess - Error al procesar usuario de reseña #2: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.48); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00B5FBD3+61635]
+	GetHandleVerifier [0x00B5FC14+61700]
+	(No symbol) [0x009805D3]
+	(No symbol) [0x00992061]
+	(No symbol) [0x00991140]
+	(No symbol) [0x00987880]
+	(No symbol) [0x00985D81]
+	(No symbol) [0x009890CA]
+	(No symbol) [0x00989147]
+	(No symbol) [0x009C8234]
+	(No symbol) [0x009C8D3B]
+	(No symbol) [0x009BE111]
+	(No symbol) [0x009ED2E4]
+	(No symbol) [0x009BE034]
+	(No symbol) [0x009ED514]
+	(No symbol) [0x00A0E61B]
+	(No symbol) [0x009ED096]
+	(No symbol) [0x009BC840]
+	(No symbol) [0x009BD6A4]
+	GetHandleVerifier [0x00DA7043+2450739]
+	GetHandleVerifier [0x00DA27C6+2432182]
+	GetHandleVerifier [0x00DBD50E+2542078]
+	GetHandleVerifier [0x00B76895+155013]
+	GetHandleVerifier [0x00B7CF7D+181357]
+	GetHandleVerifier [0x00B67428+92440]
+	GetHandleVerifier [0x00B675D0+92864]
+	GetHandleVerifier [0x00B51FC0+5296]
+	BaseThreadInitThunk [0x74EB5D49+25]
+	RtlInitializeExceptionChain [0x76FBCDEB+107]
+	RtlGetAppContainerNamedObjectPath [0x76FBCD71+561]
+
+2025-05-01 18:17:20,374 - ERROR - MainProcess - Error al procesar usuario de reseña #3: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.48); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00B5FBD3+61635]
+	GetHandleVerifier [0x00B5FC14+61700]
+	(No symbol) [0x009805D3]
+	(No symbol) [0x00992061]
+	(No symbol) [0x00991140]
+	(No symbol) [0x00987880]
+	(No symbol) [0x00985D81]
+	(No symbol) [0x009890CA]
+	(No symbol) [0x00989147]
+	(No symbol) [0x009C8234]
+	(No symbol) [0x009C8D3B]
+	(No symbol) [0x009BE111]
+	(No symbol) [0x009ED2E4]
+	(No symbol) [0x009BE034]
+	(No symbol) [0x009ED514]
+	(No symbol) [0x00A0E61B]
+	(No symbol) [0x009ED096]
+	(No symbol) [0x009BC840]
+	(No symbol) [0x009BD6A4]
+	GetHandleVerifier [0x00DA7043+2450739]
+	GetHandleVerifier [0x00DA27C6+2432182]
+	GetHandleVerifier [0x00DBD50E+2542078]
+	GetHandleVerifier [0x00B76895+155013]
+	GetHandleVerifier [0x00B7CF7D+181357]
+	GetHandleVerifier [0x00B67428+92440]
+	GetHandleVerifier [0x00B675D0+92864]
+	GetHandleVerifier [0x00B51FC0+5296]
+	BaseThreadInitThunk [0x74EB5D49+25]
+	RtlInitializeExceptionChain [0x76FBCDEB+107]
+	RtlGetAppContainerNamedObjectPath [0x76FBCD71+561]
+
+2025-05-01 18:17:26,396 - ERROR - MainProcess - Error al procesar usuario de reseña #4: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.48); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00B5FBD3+61635]
+	GetHandleVerifier [0x00B5FC14+61700]
+	(No symbol) [0x009805D3]
+	(No symbol) [0x00992061]
+	(No symbol) [0x00991140]
+	(No symbol) [0x00987880]
+	(No symbol) [0x00985D81]
+	(No symbol) [0x009890CA]
+	(No symbol) [0x00989147]
+	(No symbol) [0x009C8234]
+	(No symbol) [0x009C8D3B]
+	(No symbol) [0x009BE111]
+	(No symbol) [0x009ED2E4]
+	(No symbol) [0x009BE034]
+	(No symbol) [0x009ED514]
+	(No symbol) [0x00A0E61B]
+	(No symbol) [0x009ED096]
+	(No symbol) [0x009BC840]
+	(No symbol) [0x009BD6A4]
+	GetHandleVerifier [0x00DA7043+2450739]
+	GetHandleVerifier [0x00DA27C6+2432182]
+	GetHandleVerifier [0x00DBD50E+2542078]
+	GetHandleVerifier [0x00B76895+155013]
+	GetHandleVerifier [0x00B7CF7D+181357]
+	GetHandleVerifier [0x00B67428+92440]
+	GetHandleVerifier [0x00B675D0+92864]
+	GetHandleVerifier [0x00B51FC0+5296]
+	BaseThreadInitThunk [0x74EB5D49+25]
+	RtlInitializeExceptionChain [0x76FBCDEB+107]
+	RtlGetAppContainerNamedObjectPath [0x76FBCD71+561]
+
+2025-05-01 18:17:32,415 - WARNING - MainProcess - No se encontraron usuarios con reseñas en https://es.foursquare.com/v/alqu%C3%ADmico/56ecf121498e3aa68341604b
+2025-05-01 18:17:32,416 - INFO - MainProcess - Iniciando extracción de usuarios y reseñas de https://es.foursquare.com/v/quero-arepa/553bdbd9498eb10d09931bbf (worker 0)
+2025-05-01 18:17:32,416 - INFO - MainProcess - Completado: https://es.foursquare.com/v/alqu%C3%ADmico/56ecf121498e3aa68341604b
+2025-05-01 18:17:35,821 - INFO - MainProcess - Cookies cargadas desde C:\Users\luisarias\Documents\foursqueare-pararell\data\cookies_foursquare.pkl
+2025-05-01 18:17:38,410 - INFO - MainProcess - Extrayendo reseñas de: https://es.foursquare.com/v/quero-arepa/553bdbd9498eb10d09931bbf
+2025-05-01 18:18:04,780 - WARNING - MainProcess - No se encontró una sección separada de reseñas, intentando extraer de la página actual
+2025-05-01 18:18:04,804 - INFO - MainProcess - Se encontraron 6 reseñas para procesar
+2025-05-01 18:18:04,816 - WARNING - MainProcess - No se encontró enlace al usuario en la reseña #1
+2025-05-01 18:18:08,544 - ERROR - MainProcess - Error al procesar usuario de reseña #2: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.48); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00B5FBD3+61635]
+	GetHandleVerifier [0x00B5FC14+61700]
+	(No symbol) [0x009805D3]
+	(No symbol) [0x00992061]
+	(No symbol) [0x00991140]
+	(No symbol) [0x00987880]
+	(No symbol) [0x00985D81]
+	(No symbol) [0x009890CA]
+	(No symbol) [0x00989147]
+	(No symbol) [0x009C8234]
+	(No symbol) [0x009C8D3B]
+	(No symbol) [0x009BE111]
+	(No symbol) [0x009ED2E4]
+	(No symbol) [0x009BE034]
+	(No symbol) [0x009ED514]
+	(No symbol) [0x00A0E61B]
+	(No symbol) [0x009ED096]
+	(No symbol) [0x009BC840]
+	(No symbol) [0x009BD6A4]
+	GetHandleVerifier [0x00DA7043+2450739]
+	GetHandleVerifier [0x00DA27C6+2432182]
+	GetHandleVerifier [0x00DBD50E+2542078]
+	GetHandleVerifier [0x00B76895+155013]
+	GetHandleVerifier [0x00B7CF7D+181357]
+	GetHandleVerifier [0x00B67428+92440]
+	GetHandleVerifier [0x00B675D0+92864]
+	GetHandleVerifier [0x00B51FC0+5296]
+	BaseThreadInitThunk [0x74EB5D49+25]
+	RtlInitializeExceptionChain [0x76FBCDEB+107]
+	RtlGetAppContainerNamedObjectPath [0x76FBCD71+561]
+
+2025-05-01 18:18:14,604 - ERROR - MainProcess - Error al procesar usuario de reseña #3: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.48); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00B5FBD3+61635]
+	GetHandleVerifier [0x00B5FC14+61700]
+	(No symbol) [0x009805D3]
+	(No symbol) [0x00992061]
+	(No symbol) [0x00991140]
+	(No symbol) [0x00987880]
+	(No symbol) [0x00985D81]
+	(No symbol) [0x009890CA]
+	(No symbol) [0x00989147]
+	(No symbol) [0x009C8234]
+	(No symbol) [0x009C8D3B]
+	(No symbol) [0x009BE111]
+	(No symbol) [0x009ED2E4]
+	(No symbol) [0x009BE034]
+	(No symbol) [0x009ED514]
+	(No symbol) [0x00A0E61B]
+	(No symbol) [0x009ED096]
+	(No symbol) [0x009BC840]
+	(No symbol) [0x009BD6A4]
+	GetHandleVerifier [0x00DA7043+2450739]
+	GetHandleVerifier [0x00DA27C6+2432182]
+	GetHandleVerifier [0x00DBD50E+2542078]
+	GetHandleVerifier [0x00B76895+155013]
+	GetHandleVerifier [0x00B7CF7D+181357]
+	GetHandleVerifier [0x00B67428+92440]
+	GetHandleVerifier [0x00B675D0+92864]
+	GetHandleVerifier [0x00B51FC0+5296]
+	BaseThreadInitThunk [0x74EB5D49+25]
+	RtlInitializeExceptionChain [0x76FBCDEB+107]
+	RtlGetAppContainerNamedObjectPath [0x76FBCD71+561]
+
+2025-05-01 18:18:20,628 - ERROR - MainProcess - Error al procesar usuario de reseña #4: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.48); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00B5FBD3+61635]
+	GetHandleVerifier [0x00B5FC14+61700]
+	(No symbol) [0x009805D3]
+	(No symbol) [0x00992061]
+	(No symbol) [0x00991140]
+	(No symbol) [0x00987880]
+	(No symbol) [0x00985D81]
+	(No symbol) [0x009890CA]
+	(No symbol) [0x00989147]
+	(No symbol) [0x009C8234]
+	(No symbol) [0x009C8D3B]
+	(No symbol) [0x009BE111]
+	(No symbol) [0x009ED2E4]
+	(No symbol) [0x009BE034]
+	(No symbol) [0x009ED514]
+	(No symbol) [0x00A0E61B]
+	(No symbol) [0x009ED096]
+	(No symbol) [0x009BC840]
+	(No symbol) [0x009BD6A4]
+	GetHandleVerifier [0x00DA7043+2450739]
+	GetHandleVerifier [0x00DA27C6+2432182]
+	GetHandleVerifier [0x00DBD50E+2542078]
+	GetHandleVerifier [0x00B76895+155013]
+	GetHandleVerifier [0x00B7CF7D+181357]
+	GetHandleVerifier [0x00B67428+92440]
+	GetHandleVerifier [0x00B675D0+92864]
+	GetHandleVerifier [0x00B51FC0+5296]
+	BaseThreadInitThunk [0x74EB5D49+25]
+	RtlInitializeExceptionChain [0x76FBCDEB+107]
+	RtlGetAppContainerNamedObjectPath [0x76FBCD71+561]
+
+2025-05-01 18:18:26,649 - ERROR - MainProcess - Error al procesar usuario de reseña #5: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.48); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00B5FBD3+61635]
+	GetHandleVerifier [0x00B5FC14+61700]
+	(No symbol) [0x009805D3]
+	(No symbol) [0x00992061]
+	(No symbol) [0x00991140]
+	(No symbol) [0x00987880]
+	(No symbol) [0x00985D81]
+	(No symbol) [0x009890CA]
+	(No symbol) [0x00989147]
+	(No symbol) [0x009C8234]
+	(No symbol) [0x009C8D3B]
+	(No symbol) [0x009BE111]
+	(No symbol) [0x009ED2E4]
+	(No symbol) [0x009BE034]
+	(No symbol) [0x009ED514]
+	(No symbol) [0x00A0E61B]
+	(No symbol) [0x009ED096]
+	(No symbol) [0x009BC840]
+	(No symbol) [0x009BD6A4]
+	GetHandleVerifier [0x00DA7043+2450739]
+	GetHandleVerifier [0x00DA27C6+2432182]
+	GetHandleVerifier [0x00DBD50E+2542078]
+	GetHandleVerifier [0x00B76895+155013]
+	GetHandleVerifier [0x00B7CF7D+181357]
+	GetHandleVerifier [0x00B67428+92440]
+	GetHandleVerifier [0x00B675D0+92864]
+	GetHandleVerifier [0x00B51FC0+5296]
+	BaseThreadInitThunk [0x74EB5D49+25]
+	RtlInitializeExceptionChain [0x76FBCDEB+107]
+	RtlGetAppContainerNamedObjectPath [0x76FBCD71+561]
+
+2025-05-01 18:18:32,671 - ERROR - MainProcess - Error al procesar usuario de reseña #6: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.48); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00B5FBD3+61635]
+	GetHandleVerifier [0x00B5FC14+61700]
+	(No symbol) [0x009805D3]
+	(No symbol) [0x00992061]
+	(No symbol) [0x00991140]
+	(No symbol) [0x00987880]
+	(No symbol) [0x00985D81]
+	(No symbol) [0x009890CA]
+	(No symbol) [0x00989147]
+	(No symbol) [0x009C8234]
+	(No symbol) [0x009C8D3B]
+	(No symbol) [0x009BE111]
+	(No symbol) [0x009ED2E4]
+	(No symbol) [0x009BE034]
+	(No symbol) [0x009ED514]
+	(No symbol) [0x00A0E61B]
+	(No symbol) [0x009ED096]
+	(No symbol) [0x009BC840]
+	(No symbol) [0x009BD6A4]
+	GetHandleVerifier [0x00DA7043+2450739]
+	GetHandleVerifier [0x00DA27C6+2432182]
+	GetHandleVerifier [0x00DBD50E+2542078]
+	GetHandleVerifier [0x00B76895+155013]
+	GetHandleVerifier [0x00B7CF7D+181357]
+	GetHandleVerifier [0x00B67428+92440]
+	GetHandleVerifier [0x00B675D0+92864]
+	GetHandleVerifier [0x00B51FC0+5296]
+	BaseThreadInitThunk [0x74EB5D49+25]
+	RtlInitializeExceptionChain [0x76FBCDEB+107]
+	RtlGetAppContainerNamedObjectPath [0x76FBCD71+561]
+
+2025-05-01 18:18:38,687 - WARNING - MainProcess - No se encontraron usuarios con reseñas en https://es.foursquare.com/v/quero-arepa/553bdbd9498eb10d09931bbf
+2025-05-01 18:18:38,688 - INFO - MainProcess - Iniciando extracción de usuarios y reseñas de https://es.foursquare.com/v/la-cocina-de-pepina/4ed91cf09adfe5cbdd99de2d (worker 0)
+2025-05-01 18:18:38,688 - INFO - MainProcess - Completado: https://es.foursquare.com/v/quero-arepa/553bdbd9498eb10d09931bbf
+2025-05-01 18:18:47,714 - INFO - MainProcess - Cookies cargadas desde C:\Users\luisarias\Documents\foursqueare-pararell\data\cookies_foursquare.pkl
+2025-05-01 18:18:50,148 - INFO - MainProcess - Extrayendo reseñas de: https://es.foursquare.com/v/la-cocina-de-pepina/4ed91cf09adfe5cbdd99de2d
+2025-05-01 18:19:06,062 - WARNING - MainProcess - No se encontró una sección separada de reseñas, intentando extraer de la página actual
+2025-05-01 18:19:06,087 - INFO - MainProcess - Se encontraron 6 reseñas para procesar
+2025-05-01 18:19:06,100 - WARNING - MainProcess - No se encontró enlace al usuario en la reseña #1
+2025-05-01 18:19:09,559 - ERROR - MainProcess - Error al procesar usuario de reseña #2: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.48); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00B5FBD3+61635]
+	GetHandleVerifier [0x00B5FC14+61700]
+	(No symbol) [0x009805D3]
+	(No symbol) [0x00992061]
+	(No symbol) [0x00991140]
+	(No symbol) [0x00987880]
+	(No symbol) [0x00985D81]
+	(No symbol) [0x009890CA]
+	(No symbol) [0x00989147]
+	(No symbol) [0x009C8234]
+	(No symbol) [0x009C8D3B]
+	(No symbol) [0x009BE111]
+	(No symbol) [0x009ED2E4]
+	(No symbol) [0x009BE034]
+	(No symbol) [0x009ED514]
+	(No symbol) [0x00A0E61B]
+	(No symbol) [0x009ED096]
+	(No symbol) [0x009BC840]
+	(No symbol) [0x009BD6A4]
+	GetHandleVerifier [0x00DA7043+2450739]
+	GetHandleVerifier [0x00DA27C6+2432182]
+	GetHandleVerifier [0x00DBD50E+2542078]
+	GetHandleVerifier [0x00B76895+155013]
+	GetHandleVerifier [0x00B7CF7D+181357]
+	GetHandleVerifier [0x00B67428+92440]
+	GetHandleVerifier [0x00B675D0+92864]
+	GetHandleVerifier [0x00B51FC0+5296]
+	BaseThreadInitThunk [0x74EB5D49+25]
+	RtlInitializeExceptionChain [0x76FBCDEB+107]
+	RtlGetAppContainerNamedObjectPath [0x76FBCD71+561]
+
+2025-05-01 18:19:15,632 - ERROR - MainProcess - Error al procesar usuario de reseña #3: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.48); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00B5FBD3+61635]
+	GetHandleVerifier [0x00B5FC14+61700]
+	(No symbol) [0x009805D3]
+	(No symbol) [0x00992061]
+	(No symbol) [0x00991140]
+	(No symbol) [0x00987880]
+	(No symbol) [0x00985D81]
+	(No symbol) [0x009890CA]
+	(No symbol) [0x00989147]
+	(No symbol) [0x009C8234]
+	(No symbol) [0x009C8D3B]
+	(No symbol) [0x009BE111]
+	(No symbol) [0x009ED2E4]
+	(No symbol) [0x009BE034]
+	(No symbol) [0x009ED514]
+	(No symbol) [0x00A0E61B]
+	(No symbol) [0x009ED096]
+	(No symbol) [0x009BC840]
+	(No symbol) [0x009BD6A4]
+	GetHandleVerifier [0x00DA7043+2450739]
+	GetHandleVerifier [0x00DA27C6+2432182]
+	GetHandleVerifier [0x00DBD50E+2542078]
+	GetHandleVerifier [0x00B76895+155013]
+	GetHandleVerifier [0x00B7CF7D+181357]
+	GetHandleVerifier [0x00B67428+92440]
+	GetHandleVerifier [0x00B675D0+92864]
+	GetHandleVerifier [0x00B51FC0+5296]
+	BaseThreadInitThunk [0x74EB5D49+25]
+	RtlInitializeExceptionChain [0x76FBCDEB+107]
+	RtlGetAppContainerNamedObjectPath [0x76FBCD71+561]
+
+2025-05-01 18:19:21,658 - ERROR - MainProcess - Error al procesar usuario de reseña #4: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.48); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00B5FBD3+61635]
+	GetHandleVerifier [0x00B5FC14+61700]
+	(No symbol) [0x009805D3]
+	(No symbol) [0x00992061]
+	(No symbol) [0x00991140]
+	(No symbol) [0x00987880]
+	(No symbol) [0x00985D81]
+	(No symbol) [0x009890CA]
+	(No symbol) [0x00989147]
+	(No symbol) [0x009C8234]
+	(No symbol) [0x009C8D3B]
+	(No symbol) [0x009BE111]
+	(No symbol) [0x009ED2E4]
+	(No symbol) [0x009BE034]
+	(No symbol) [0x009ED514]
+	(No symbol) [0x00A0E61B]
+	(No symbol) [0x009ED096]
+	(No symbol) [0x009BC840]
+	(No symbol) [0x009BD6A4]
+	GetHandleVerifier [0x00DA7043+2450739]
+	GetHandleVerifier [0x00DA27C6+2432182]
+	GetHandleVerifier [0x00DBD50E+2542078]
+	GetHandleVerifier [0x00B76895+155013]
+	GetHandleVerifier [0x00B7CF7D+181357]
+	GetHandleVerifier [0x00B67428+92440]
+	GetHandleVerifier [0x00B675D0+92864]
+	GetHandleVerifier [0x00B51FC0+5296]
+	BaseThreadInitThunk [0x74EB5D49+25]
+	RtlInitializeExceptionChain [0x76FBCDEB+107]
+	RtlGetAppContainerNamedObjectPath [0x76FBCD71+561]
+
+2025-05-01 18:19:27,682 - ERROR - MainProcess - Error al procesar usuario de reseña #5: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.48); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00B5FBD3+61635]
+	GetHandleVerifier [0x00B5FC14+61700]
+	(No symbol) [0x009805D3]
+	(No symbol) [0x00992061]
+	(No symbol) [0x00991140]
+	(No symbol) [0x00987880]
+	(No symbol) [0x00985D81]
+	(No symbol) [0x009890CA]
+	(No symbol) [0x00989147]
+	(No symbol) [0x009C8234]
+	(No symbol) [0x009C8D3B]
+	(No symbol) [0x009BE111]
+	(No symbol) [0x009ED2E4]
+	(No symbol) [0x009BE034]
+	(No symbol) [0x009ED514]
+	(No symbol) [0x00A0E61B]
+	(No symbol) [0x009ED096]
+	(No symbol) [0x009BC840]
+	(No symbol) [0x009BD6A4]
+	GetHandleVerifier [0x00DA7043+2450739]
+	GetHandleVerifier [0x00DA27C6+2432182]
+	GetHandleVerifier [0x00DBD50E+2542078]
+	GetHandleVerifier [0x00B76895+155013]
+	GetHandleVerifier [0x00B7CF7D+181357]
+	GetHandleVerifier [0x00B67428+92440]
+	GetHandleVerifier [0x00B675D0+92864]
+	GetHandleVerifier [0x00B51FC0+5296]
+	BaseThreadInitThunk [0x74EB5D49+25]
+	RtlInitializeExceptionChain [0x76FBCDEB+107]
+	RtlGetAppContainerNamedObjectPath [0x76FBCD71+561]
+
+2025-05-01 18:19:33,704 - ERROR - MainProcess - Error al procesar usuario de reseña #6: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.48); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00B5FBD3+61635]
+	GetHandleVerifier [0x00B5FC14+61700]
+	(No symbol) [0x009805D3]
+	(No symbol) [0x00992061]
+	(No symbol) [0x00991140]
+	(No symbol) [0x00987880]
+	(No symbol) [0x00985D81]
+	(No symbol) [0x009890CA]
+	(No symbol) [0x00989147]
+	(No symbol) [0x009C8234]
+	(No symbol) [0x009C8D3B]
+	(No symbol) [0x009BE111]
+	(No symbol) [0x009ED2E4]
+	(No symbol) [0x009BE034]
+	(No symbol) [0x009ED514]
+	(No symbol) [0x00A0E61B]
+	(No symbol) [0x009ED096]
+	(No symbol) [0x009BC840]
+	(No symbol) [0x009BD6A4]
+	GetHandleVerifier [0x00DA7043+2450739]
+	GetHandleVerifier [0x00DA27C6+2432182]
+	GetHandleVerifier [0x00DBD50E+2542078]
+	GetHandleVerifier [0x00B76895+155013]
+	GetHandleVerifier [0x00B7CF7D+181357]
+	GetHandleVerifier [0x00B67428+92440]
+	GetHandleVerifier [0x00B675D0+92864]
+	GetHandleVerifier [0x00B51FC0+5296]
+	BaseThreadInitThunk [0x74EB5D49+25]
+	RtlInitializeExceptionChain [0x76FBCDEB+107]
+	RtlGetAppContainerNamedObjectPath [0x76FBCD71+561]
+
+2025-05-01 18:19:39,727 - WARNING - MainProcess - No se encontraron usuarios con reseñas en https://es.foursquare.com/v/la-cocina-de-pepina/4ed91cf09adfe5cbdd99de2d
+2025-05-01 18:19:39,727 - INFO - MainProcess - Completado: https://es.foursquare.com/v/la-cocina-de-pepina/4ed91cf09adfe5cbdd99de2d
+2025-05-01 18:19:39,728 - INFO - MainProcess - Scraping completado en 176.91s - 0/3 exitosos
+2025-05-01 18:19:39,729 - INFO - MainProcess - Cerrando recursos del scraper de reseñas
+2025-05-01 18:19:39,729 - INFO - MainProcess - Cerrando pool de drivers

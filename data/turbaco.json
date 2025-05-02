@@ -2,140 +2,140 @@
     "metadata": {
         "fuente": "https://es.foursquare.com/explore?mode=url&ne=10.634965%2C-75.06443&q=Turbaco&sw=10.177753%2C-75.641212",
         "total": 11,
-        "fecha": "2025-04-26 23:37:24"
+        "fecha": "2025-05-01 17:11:20"
     },
     "sitios": [
         {
             "id": 1,
-            "puntuacion": "7.5",
             "nombre": "La Fattoria",
             "categoria": "Italiana",
             "direccion": "Plan Parejo Urb. El Valle Calle 24 No 31-18, Turbaco",
+            "puntuacion": "7.5",
             "url_sitio": "https://es.foursquare.com/v/la-fattoria/5040fd19e4b08d95c13c4019",
             "usuario_reseña": "Eric S.",
             "fecha_reseña": "Febrero 25, 2015",
             "contenido_reseña": "Deliciosa pizza! Siempre pido la fattoria. No tomes el capuchino. Es como un mal café con leche y cuesta $7500. A nice place to go in Turbaco.",
-            "fecha_extraccion": "2025-04-26 23:37:24"
+            "fecha_extraccion": "2025-05-01 17:11:20"
         },
         {
             "id": 2,
-            "puntuacion": "N/A",
             "nombre": "Los Chicharrones de Turbaco",
             "categoria": "Sudamericana",
             "direccion": "",
+            "puntuacion": "N/A",
             "url_sitio": "https://es.foursquare.com/v/los-chicharrones-de-turbaco/56896965498edeff7dcd65ec",
             "usuario_reseña": "Kim J.",
             "fecha_reseña": "Diciembre 3, 2018",
             "contenido_reseña": "Es un restaurante tipico, con muy buen chicharron.",
-            "fecha_extraccion": "2025-04-26 23:37:24"
+            "fecha_extraccion": "2025-05-01 17:11:20"
         },
         {
             "id": 3,
-            "puntuacion": "N/A",
             "nombre": "Plaza de Turbaco",
             "categoria": "Plaza",
             "direccion": "",
+            "puntuacion": "N/A",
             "url_sitio": "https://es.foursquare.com/v/plaza-de-turbaco/4f4ad055e4b07165fbb34d07",
             "usuario_reseña": "Mery D.",
             "fecha_reseña": "Junio 19, 2012",
             "contenido_reseña": "Magnifico lugsr para distraerve...",
-            "fecha_extraccion": "2025-04-26 23:37:24"
+            "fecha_extraccion": "2025-05-01 17:11:20"
         },
         {
             "id": 4,
-            "puntuacion": "N/A",
             "nombre": "Turbaco",
             "categoria": "Localidad",
             "direccion": "",
+            "puntuacion": "N/A",
             "url_sitio": "https://es.foursquare.com/v/turbaco/536e8671498eb76da3cef444",
             "usuario_reseña": "N/A",
             "fecha_reseña": "N/A",
             "contenido_reseña": "N/A",
-            "fecha_extraccion": "2025-04-26 23:37:24"
+            "fecha_extraccion": "2025-05-01 17:11:20"
         },
         {
             "id": 5,
-            "puntuacion": "N/A",
             "nombre": "Turbaco Plan Parejo",
             "categoria": "Otros lugares al aire libre",
             "direccion": "",
+            "puntuacion": "N/A",
             "url_sitio": "https://es.foursquare.com/v/turbaco-plan-parejo/4f3c1051e4b01e33469a43bb",
             "usuario_reseña": "Lucho B.",
             "fecha_reseña": "Septiembre 6, 2013",
             "contenido_reseña": "Es la Zona Campestre de Cartagena,casa grandes jardines grandes,aire puro y una vista de la Fantástica Espectaular!!",
-            "fecha_extraccion": "2025-04-26 23:37:24"
+            "fecha_extraccion": "2025-05-01 17:11:20"
         },
         {
             "id": 6,
-            "puntuacion": "N/A",
             "nombre": "estacion de buses turbaco",
             "categoria": "Estación de autobuses",
             "direccion": "",
+            "puntuacion": "N/A",
             "url_sitio": "https://es.foursquare.com/v/estacion-de-buses-turbaco/5123fa19e4b03a6d577bcb19",
             "usuario_reseña": "N/A",
             "fecha_reseña": "N/A",
             "contenido_reseña": "N/A",
-            "fecha_extraccion": "2025-04-26 23:37:24"
+            "fecha_extraccion": "2025-05-01 17:11:20"
         },
         {
             "id": 7,
-            "puntuacion": "N/A",
             "nombre": "Turbaco",
             "categoria": "Carretera",
             "direccion": "Turbaco, Turbaco",
+            "puntuacion": "N/A",
             "url_sitio": "https://es.foursquare.com/v/turbaco/4e0e7987814d61a7070012ed",
             "usuario_reseña": "Osman B.",
             "fecha_reseña": "Diciembre 19, 2012",
             "contenido_reseña": "Bookafe: Experimenta un rico momento con tu familia y disfruta de buenos libros espirituales que te ayudaran en tu familia y en tu matrimonio y en tu progreso humano y espiritual. Dir:frente la optica",
-            "fecha_extraccion": "2025-04-26 23:37:24"
+            "fecha_extraccion": "2025-05-01 17:11:20"
         },
         {
             "id": 8,
-            "puntuacion": "N/A",
             "nombre": "Estación De Servicios Marbella - Terpel",
             "categoria": "Gasolinera",
             "direccion": "Carrera 1 2-100, Cartagena de Indias",
+            "puntuacion": "N/A",
             "url_sitio": "https://es.foursquare.com/v/estaci%C3%B3n-de-servicios-marbella--terpel/4daa800f0437dccbd80820e0",
             "usuario_reseña": "Betto R.",
             "fecha_reseña": "Abril 1, 2013",
             "contenido_reseña": "Ahora ofrecen el servicio d lavado de carro (Mr. Splash) bueno, rapido y justo   !!!",
-            "fecha_extraccion": "2025-04-26 23:37:24"
+            "fecha_extraccion": "2025-05-01 17:11:20"
         },
         {
             "id": 9,
-            "puntuacion": "N/A",
             "nombre": "Megatiendas Express Turbaco",
             "categoria": "Supermercado",
             "direccion": "",
+            "puntuacion": "N/A",
             "url_sitio": "https://es.foursquare.com/v/megatiendas-express-turbaco/53e0d4ec498ee0b530e7231e",
             "usuario_reseña": "N/A",
             "fecha_reseña": "N/A",
             "contenido_reseña": "N/A",
-            "fecha_extraccion": "2025-04-26 23:37:24"
+            "fecha_extraccion": "2025-05-01 17:11:20"
         },
         {
             "id": 10,
-            "puntuacion": "N/A",
             "nombre": "Paintball SWAT Turbaco",
             "categoria": "Campo de Paintball",
             "direccion": "",
+            "puntuacion": "N/A",
             "url_sitio": "https://es.foursquare.com/v/paintball-swat-turbaco/5190fcc5498e24b8c9329784",
             "usuario_reseña": "N/A",
             "fecha_reseña": "N/A",
             "contenido_reseña": "N/A",
-            "fecha_extraccion": "2025-04-26 23:37:24"
+            "fecha_extraccion": "2025-05-01 17:11:20"
         },
         {
             "id": 11,
-            "puntuacion": "N/A",
             "nombre": "Davivienda Turbaco",
             "categoria": "Banco",
             "direccion": "",
+            "puntuacion": "N/A",
             "url_sitio": "https://es.foursquare.com/v/davivienda-turbaco/4f57783fe4b06f35185e98bf",
             "usuario_reseña": "N/A",
             "fecha_reseña": "N/A",
             "contenido_reseña": "N/A",
-            "fecha_extraccion": "2025-04-26 23:37:24"
+            "fecha_extraccion": "2025-05-01 17:11:20"
         }
     ]
 }

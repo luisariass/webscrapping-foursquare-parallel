@@ -20,9 +20,13 @@ ACCEPT_LANGUAGE = "es-ES,es;q=0.9"
 WAIT_AFTER_PAGE_LOAD = 3
 WAIT_BETWEEN_SCROLLS = 1.5
 WAIT_AFTER_BUTTON_CLICK = 2
+WAIT_BETWEEN_ACTIONS = 1.0  # Tiempo entre acciones como clics
 RETRY_DELAY_BASE = 2
 
 # Configuración de autenticación
 COOKIES_FILE = os.path.join(BASE_DIR, "data", "cookies_foursquare.pkl")
 COOKIE_REFRESH_TIME = 2  # segundos para esperar después de cargar cookies
 LOGIN_PAGE = "https://es.foursquare.com/login"
+
+# Configuración específica para el scraper de reseñas
+MAX_REVIEWS_PER_USER = 20  # Máximo de reseñas a extraer por usuario

@@ -31,7 +31,7 @@ class FoursquareScraper:
     def create_initial_session(self) -> bool:
         """
         Inicia un navegador para que el usuario inicie sesión manualmente
-        y guarda las cookies para uso futuro
+        y guarda las cookies para uso futuro - Solo abre una ventana
         """
         return self.auth_manager.create_initial_session(self.browser_pool)
     
